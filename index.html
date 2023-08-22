@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulador de compra e venda de Nucoin</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+</head>
+<body>
+<div class="title"><h2>Simulador de compra e venda de Nucoin</h2></div>
+
+<div class="calculator-container">
+  <div class="calculator">
+    <h2>Comprar</h2>
+    <p><label for="valor-reais">Valor em reais:</label>
+    <input type="number" id="valor-reais"></p>
+    <p><label for="preco-moeda">Preço da moeda:</label>
+    <input type="number" id="preco-moeda" value="0.1999999"></p>
+    <p>Quantidade de moedas: <span id="quantidade-moedas">0</span></p>
+    <p><label for="taxa-compra">Taxa:</label>
+    <input type="number" id="taxa-compra" value="1.66"></p>
+    <p>Quantidade de unidades compradas: <span id="quantidade-unidades-compradas">0</span></p>
+    <button id="salvar-compra">Salvar</button>
+  </div>
+
+  <div class="calculator">
+    <h2>Vender</h2>
+    <p><label for="quantidade-moedas-venda">Quantidade de moedas:</label>
+    <input type="number" id="quantidade-moedas-venda"></p>
+    <p><label for="preco-moeda-venda">Preço da moeda:</label>
+    <input type="number" id="preco-moeda-venda" value="0.181111"></p>
+    <p>Total em reais: <span id="total-reais">0</span></p>
+    <p><label for="taxa-venda">Taxa:</label>
+    <input type="number" id="taxa-venda" value="1.66"></p>
+    <p>Valor final a sacar: <span id="valor-final-sacar">0</span></p>
+    <button id="salvar-venda">Salvar</button>
+  </div>
+</div>
+
+<div class="history">
+  <h2>Histórico</h2>
+  <div id="history-list"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
