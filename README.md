@@ -1,7 +1,6 @@
 # simulador de compra e venda de nucoin
-Feito sem nenhum objetivo.
+Fiz pra especular o valor do nucoin quando estva na moda.
 
-Serve pra nada. (você pode notar a falta de lógica e os erros de resultado).
 
 https://glittery-jalebi-6de401.netlify.app
 
