@@ -1,5 +1,5 @@
 # simulador de compra e venda de nucoin
-Fiz pra especular o valor do nucoin quando estva na moda.
+Fiz pra especular o valor do nucoin quando estava na moda.
 
 
 https://glittery-jalebi-6de401.netlify.app
